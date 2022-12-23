@@ -33,6 +33,7 @@ scripts = [
     "extractor.py",
     "loader.py",
     "grid_plot.py",
+    "process.py",
     "predictor.py",
 ]
 

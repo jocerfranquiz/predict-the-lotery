@@ -26,7 +26,8 @@ I hate monolitic scripts 😶
 - Some results????
 
 ```
-C:\Users\pax\PycharmProjects\tinka_predict\venv310\Scripts\python.exe C:\Users\pax\PycharmProjects\tinka_predict\predictor.py 
+python predictor.py 
+
 Number of clusters: 5
 Number of outliers: 278
 Cluster 0: 655 points, center: [35. 27. 25. 12.  9. 10.]

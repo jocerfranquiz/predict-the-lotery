@@ -71,5 +71,5 @@ for i in range(data.shape[0]):
 
 # Set the title and show the plot
 plt.title('TINKA 945 2022_12')
-plt.savefig('tinka_945_2022_12.png')
+plt.savefig('heatmap.png')
 

@@ -16,7 +16,7 @@ df['frequency'].plot(
     title='Frequency of balls 2022',
     color=(30/256., 120/256., 180/256., 0.5),
     fontsize=8).set_xticklabels(df['id'], rotation=45)
-plt.show()
+plt.savefig('frequency.png')
 
 # Calculate the probability of selecting each integer
 df['probability'] = df['frequency'] / df['frequency'].sum()

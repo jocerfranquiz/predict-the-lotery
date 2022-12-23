@@ -1,0 +1,5 @@
+LOG_FILE: "project.log"
+LOG_FORMAT: "%(asctime)s - File:%(filename)s - Line:%(lineno)d - %(levelname)s - << %(message)s >>"
+LOG_LEVEL: "INFO"
+VIRTUAL_ENV: "venv310"
+

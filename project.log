@@ -1,0 +1,29 @@
+2022-12-22 21:39:21,049 - File:main.py - Line:42 - INFO - << Running extractor.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\extractor.py >>
+2022-12-22 21:39:21,050 - File:main.py - Line:46 - ERROR - << [WinError 2] The system cannot find the file specified >>
+2022-12-22 21:39:21,050 - File:main.py - Line:42 - INFO - << Running loader.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\loader.py >>
+2022-12-22 21:39:21,050 - File:main.py - Line:46 - ERROR - << [WinError 2] The system cannot find the file specified >>
+2022-12-22 21:39:21,050 - File:main.py - Line:42 - INFO - << Running grid_plot.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\grid_plot.py >>
+2022-12-22 21:39:21,050 - File:main.py - Line:46 - ERROR - << [WinError 2] The system cannot find the file specified >>
+2022-12-22 21:39:21,051 - File:main.py - Line:42 - INFO - << Running predictor.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\predictor.py >>
+2022-12-22 21:39:21,051 - File:main.py - Line:46 - ERROR - << [WinError 2] The system cannot find the file specified >>
+2022-12-22 21:42:30,831 - File:main.py - Line:43 - INFO - << Running extractor.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\extractor.py >>
+2022-12-22 21:42:30,832 - File:main.py - Line:47 - ERROR - << [WinError 2] The system cannot find the file specified >>
+2022-12-22 21:42:30,832 - File:main.py - Line:43 - INFO - << Running loader.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\loader.py >>
+2022-12-22 21:42:30,832 - File:main.py - Line:47 - ERROR - << [WinError 2] The system cannot find the file specified >>
+2022-12-22 21:42:30,832 - File:main.py - Line:43 - INFO - << Running grid_plot.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\grid_plot.py >>
+2022-12-22 21:42:30,832 - File:main.py - Line:47 - ERROR - << [WinError 2] The system cannot find the file specified >>
+2022-12-22 21:42:30,832 - File:main.py - Line:43 - INFO - << Running predictor.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\predictor.py >>
+2022-12-22 21:42:30,832 - File:main.py - Line:47 - ERROR - << [WinError 2] The system cannot find the file specified >>
+2022-12-22 21:44:25,578 - File:main.py - Line:43 - INFO - << Running extractor.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\extractor.py >>
+2022-12-22 21:44:25,586 - File:main.py - Line:47 - ERROR - << Command '['C:\\Users\\pax\\PycharmProjects\\tinka_predict\\venv310\\Scripts\\python.exe -m', 'C:\\Users\\pax\\PycharmProjects\\tinka_predict\\extractor.py']' returned non-zero exit status 1. >>
+2022-12-22 21:44:25,587 - File:main.py - Line:43 - INFO - << Running loader.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\loader.py >>
+2022-12-22 21:44:25,594 - File:main.py - Line:47 - ERROR - << Command '['C:\\Users\\pax\\PycharmProjects\\tinka_predict\\venv310\\Scripts\\python.exe -m', 'C:\\Users\\pax\\PycharmProjects\\tinka_predict\\loader.py']' returned non-zero exit status 1. >>
+2022-12-22 21:44:25,594 - File:main.py - Line:43 - INFO - << Running grid_plot.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\grid_plot.py >>
+2022-12-22 21:44:25,600 - File:main.py - Line:47 - ERROR - << Command '['C:\\Users\\pax\\PycharmProjects\\tinka_predict\\venv310\\Scripts\\python.exe -m', 'C:\\Users\\pax\\PycharmProjects\\tinka_predict\\grid_plot.py']' returned non-zero exit status 1. >>
+2022-12-22 21:44:25,601 - File:main.py - Line:43 - INFO - << Running predictor.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\predictor.py >>
+2022-12-22 21:44:25,607 - File:main.py - Line:47 - ERROR - << Command '['C:\\Users\\pax\\PycharmProjects\\tinka_predict\\venv310\\Scripts\\python.exe -m', 'C:\\Users\\pax\\PycharmProjects\\tinka_predict\\predictor.py']' returned non-zero exit status 1. >>
+2022-12-22 21:44:48,936 - File:main.py - Line:43 - INFO - << Running extractor.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\extractor.py >>
+2022-12-22 21:44:49,745 - File:main.py - Line:43 - INFO - << Running loader.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\loader.py >>
+2022-12-22 21:44:50,422 - File:main.py - Line:43 - INFO - << Running grid_plot.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\grid_plot.py >>
+2022-12-22 21:44:51,100 - File:grid_plot.py - Line:22 - INFO - << Data loaded successfully >>
+2022-12-22 21:45:01,952 - File:main.py - Line:43 - INFO - << Running predictor.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\predictor.py >>

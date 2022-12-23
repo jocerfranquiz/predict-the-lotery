@@ -7,8 +7,8 @@ from sklearn.cluster import DBSCAN
 
 TEST_SIZE = 0.2
 # Set the parameters for DBSCAN
-EPS = 0.3622
-MIN_SAMPLES = 13
+EPS = 0.3644
+MIN_SAMPLES = 9
 
 # Load the data into a pandas dataframe
 raw_data = pd.read_csv("sim_data.csv").to_numpy()
@@ -47,17 +47,17 @@ n_outliers = list(labels).count(-1)
 # Get the number of points in each cluster
 cluster_sizes = [list(labels).count(i) for i in range(n_clusters)]
 
-# Get centers of the clusters
+# Get components of the clusters
 centers = dbscan.components_
 
-# Convert the centers to the original scale
-centers = scaler.inverse_transform(centers)
+# Convert the components to the original scale
+components = scaler.inverse_transform(centers)
 
 print(f"Number of clusters: {n_clusters}")
 print(f"Number of outliers: {n_outliers}")
 
-# Print label, cluster size and center for each cluster
+# Print label, cluster size and components for each cluster
 for i in range(n_clusters):
-    print(f"Cluster {i}: {cluster_sizes[i]} points, center: {centers[i]}")
+    print(f"Cluster {i}: {cluster_sizes[i]} points, center: {components[i]}")
 
 

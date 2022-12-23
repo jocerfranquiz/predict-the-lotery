@@ -20,6 +20,21 @@ I was bored  🫤
 I hate monolitic scripts 😶
 
 ## Final comments
-- Some *results* (remember, this is more numerology than anything else 🙊)
-- 100% PYTHON 3.10.9  🐍
-- I'm sure that you can use other methods, maybe Markov Chains or an RNN
+- Remember, this is more numerology than anything else 🙊
+- 100% PYTHON 3.10.9 🐍
+- I'm sure that you can use other methods, maybe Markov Chains or an RNN 🎯
+- Some results????
+
+```
+C:\Users\pax\PycharmProjects\tinka_predict\venv310\Scripts\python.exe C:\Users\pax\PycharmProjects\tinka_predict\predictor.py 
+Number of clusters: 5
+Number of outliers: 278
+Cluster 0: 655 points, center: [35. 27. 25. 12.  9. 10.]
+Cluster 1: 50 points, center: [ 7. 17. 13.  6. 41. 18.]
+Cluster 2: 6 points, center: [44. 38. 11. 16. 31. 32.]
+Cluster 3: 7 points, center: [15. 28. 41. 26.  8. 25.]
+Cluster 4: 4 points, center: [16. 38. 27. 14. 10. 21.]
+
+Process finished with exit code 0
+```
+

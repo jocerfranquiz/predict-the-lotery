@@ -27,3 +27,29 @@
 2022-12-22 21:44:50,422 - File:main.py - Line:43 - INFO - << Running grid_plot.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\grid_plot.py >>
 2022-12-22 21:44:51,100 - File:grid_plot.py - Line:22 - INFO - << Data loaded successfully >>
 2022-12-22 21:45:01,952 - File:main.py - Line:43 - INFO - << Running predictor.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\predictor.py >>
+2022-12-23 08:39:39,442 - File:grid_plot.py - Line:22 - INFO - << Data loaded successfully >>
+2022-12-23 09:20:05,978 - File:main.py - Line:44 - INFO - << Running extractor.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\extractor.py >>
+2022-12-23 09:20:06,689 - File:main.py - Line:44 - INFO - << Running loader.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\loader.py >>
+2022-12-23 09:20:07,411 - File:main.py - Line:44 - INFO - << Running grid_plot.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\grid_plot.py >>
+2022-12-23 09:20:08,220 - File:grid_plot.py - Line:22 - INFO - << Data loaded successfully >>
+2022-12-23 09:20:08,715 - File:main.py - Line:44 - INFO - << Running process.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\process.py >>
+2022-12-23 09:20:10,500 - File:main.py - Line:44 - INFO - << Running predictor.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\predictor.py >>
+2022-12-23 12:05:01,947 - File:main.py - Line:53 - INFO - << Running extractor.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\extractor.py >>
+2022-12-23 12:05:02,566 - File:extractor.py - Line:49 - INFO - << Response status code: 200 >>
+2022-12-23 12:05:02,598 - File:main.py - Line:53 - INFO - << Running loader.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\loader.py >>
+2022-12-23 12:05:04,019 - File:main.py - Line:53 - INFO - << Running grid_plot.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\grid_plot.py >>
+2022-12-23 12:05:04,812 - File:main.py - Line:57 - ERROR - << Command '['C:\\Users\\pax\\PycharmProjects\\tinka_predict\\venv310\\Scripts\\python.exe', 'C:\\Users\\pax\\PycharmProjects\\tinka_predict\\grid_plot.py']' returned non-zero exit status 3221225786. >>
+2022-12-23 12:06:51,873 - File:main.py - Line:53 - INFO - << Running extractor.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\extractor.py >>
+2022-12-23 12:06:52,255 - File:extractor.py - Line:49 - INFO - << Response status code: 200 >>
+2022-12-23 12:06:52,281 - File:main.py - Line:53 - INFO - << Running loader.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\loader.py >>
+2022-12-23 12:06:52,799 - File:main.py - Line:53 - INFO - << Running grid_plot.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\grid_plot.py >>
+2022-12-23 12:06:53,411 - File:grid_plot.py - Line:31 - INFO - << Data loaded successfully >>
+2022-12-23 12:06:54,071 - File:main.py - Line:53 - INFO - << Running process.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\process.py >>
+2022-12-23 12:06:55,186 - File:main.py - Line:53 - INFO - << Running predictor.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\predictor.py >>
+2022-12-23 12:09:39,240 - File:main.py - Line:53 - INFO - << Running extractor.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\extractor.py >>
+2022-12-23 12:09:39,734 - File:extractor.py - Line:49 - INFO - << Response status code: 200 >>
+2022-12-23 12:09:39,766 - File:main.py - Line:53 - INFO - << Running loader.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\loader.py >>
+2022-12-23 12:09:40,293 - File:main.py - Line:53 - INFO - << Running grid_plot.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\grid_plot.py >>
+2022-12-23 12:09:40,931 - File:grid_plot.py - Line:31 - INFO - << Data loaded successfully >>
+2022-12-23 12:09:41,302 - File:main.py - Line:53 - INFO - << Running process.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\process.py >>
+2022-12-23 12:09:42,542 - File:main.py - Line:53 - INFO - << Running predictor.py. Path: C:\Users\pax\PycharmProjects\tinka_predict\predictor.py >>

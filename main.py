@@ -1,3 +1,12 @@
+"""
+Author: Jocer Franquiz
+Date: 2022-12-23
+Version: 1.0.0
+
+This script orchestrate the whole process
+"""
+
+
 import subprocess
 import yaml
 import logging

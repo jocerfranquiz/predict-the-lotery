@@ -1,3 +1,12 @@
+"""
+Author: Jocer Franquiz
+Date: 2022-12-23
+Version: 1.0.0
+
+This script creates a heatmap of the frecuencies of each id
+"""
+
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -70,6 +79,6 @@ for i in range(data.shape[0]):
         ax.text(j, i, id, ha="center", va="center", color="w")
 
 # Set the title and show the plot
-plt.title('TINKA 945 2022_12')
+plt.title('HEATMAP TINKA 2022')
 plt.savefig('heatmap.png')
 

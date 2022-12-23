@@ -1,3 +1,12 @@
+"""
+Author: Jocer Franquiz
+Date: 2022-12-23
+Version: 1.0.0
+
+This script helps to visually select eps and min_samples parameters for DBSCAN
+"""
+
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -45,11 +54,43 @@ for eps in eps_values:
 
 
 # Plot the results
-# param_data_plot = param_data.pivot("eps", "min_samples", "n_outliers")
-param_data_plot = param_data.pivot("eps", "min_samples", "n_clusters")
-print(param_data_plot[0:1])
+data_plot_o = param_data.pivot("eps", "min_samples", "n_outliers")
+data_plot_c = param_data.pivot("eps", "min_samples", "n_clusters")
+
+# Set up the plot with 2 subplots
+fig, (axo, axc) = plt.subplots(1, 2)
+
+# Plot the number of outliers
+imo = axo.imshow(data_plot_o, cmap="coolwarm")
+cbaro = axo.figure.colorbar(imo, ax=axo)
+cbaro.ax.set_ylabel('Outliers', rotation=-90, va="bottom")
+plt.xlabel("min_samples")
+plt.ylabel("eps")
+plt.xticks(np.arange(len(min_samples_values)), min_samples_values)
+plt.yticks(np.arange(len(eps_values)), eps_values.round(4))
+
+# Plot the number of clusters
+imc = axc.imshow(data_plot_c, cmap="viridis")
+cbarc = axc.figure.colorbar(imc, ax=axc)
+cbarc.ax.set_ylabel('Clusters', rotation=-90, va="bottom")
+plt.xlabel("min_samples")
+plt.ylabel("eps")
+plt.xticks(np.arange(len(min_samples_values)), min_samples_values)
+plt.yticks(np.arange(len(eps_values)), eps_values.round(4))
+
+plt.show()
+
+
+
+
+
+"""
+
 plt.figure(figsize=(6, 6))
 # plt.contourf(param_data_plot, cmap="viridis")
+# Plot side by side to compare
+plt.subplot(1, 2, 1)
+
 plt.imshow(param_data_plot, cmap="coolwarm")
 plt.colorbar()
 plt.xlabel("min_samples")
@@ -61,5 +102,5 @@ plt.show()
 # TODO: add outliers to the plot
 # I want the minimum of outliers with 5 clusters
 
-
+"""
 

@@ -1,3 +1,12 @@
+"""
+Author: Jocer Franquiz
+Date: 2022-12-23
+Version: 1.0.0
+
+This script cleans the html tables and translate it into CSV
+"""
+
+
 import pandas as pd
 
 # Read the HTML table from the file into a list of DataFrames

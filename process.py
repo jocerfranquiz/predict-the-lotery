@@ -1,3 +1,12 @@
+"""
+Author: Jocer Franquiz
+Date: 2022-12-23
+Version: 1.0.0
+
+This script generates a CSV file with trials using a frecuency table
+"""
+
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -30,7 +39,7 @@ sampling_results = []
 # Loop over the number of samples
 for i in range(num_samples):
     # Sample three integers without replacement using the probabilities
-    sampled_ids = np.random.choice(df['id'], size=6, p=df['probability'])
+    sampled_ids = np.random.choice(df['id'], size=6, p=df['probability'], replace=False)
 
     # Add the sampled integers to the results list
     sampling_results.append(sampled_ids)

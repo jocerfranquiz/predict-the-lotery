@@ -1,3 +1,12 @@
+"""
+Author: Jocer Franquiz
+Date: 2022-12-23
+Version: 1.0.0
+
+This script use DBSCAN identify clusters in a CSV
+"""
+
+
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
@@ -47,17 +56,17 @@ n_outliers = list(labels).count(-1)
 # Get the number of points in each cluster
 cluster_sizes = [list(labels).count(i) for i in range(n_clusters)]
 
-# Get components of the clusters
+# Get centers of the clusters
 centers = dbscan.components_
 
-# Convert the components to the original scale
-components = scaler.inverse_transform(centers)
+# Convert the centers to the original scale
+centers = scaler.inverse_transform(centers)
 
 print(f"Number of clusters: {n_clusters}")
 print(f"Number of outliers: {n_outliers}")
 
-# Print label, cluster size and components for each cluster
+# Print label, cluster size and center for each cluster
 for i in range(n_clusters):
-    print(f"Cluster {i}: {cluster_sizes[i]} points, center: {components[i]}")
+    print(f"Cluster {i}: {cluster_sizes[i]} points, center: {centers[i]}")
 
 

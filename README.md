@@ -2,6 +2,8 @@
 
 ## This is a little experiment to predict "La Tinka" lottery using DBSCAN algorithm 
 
+The idea is to use the DBSCAN algorithm to cluster the data and then use the cluster centers as the prediction.
+
 #### 📢 Disclaimer 📢
   This is ONLY an experiment, it is not by any means something that allows you to predict the results of any lottery game. This is obviously a wrong thing to predict. Lotteries in general made a huge effort to prove that their process is actually random. If the lottery is doing its job, it will be impossible.
   The only way that lottery results are predictable is if they are tampering with the result and you *discover* the method.

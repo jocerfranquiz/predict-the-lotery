@@ -1,8 +1,10 @@
 # predict-the-lotery 🍀
 
-## 📢 Disclaimer 📢
-This is ONLY an experiment, it is not by any means something that allows you to predict the results of any lottery game. This is obviously a wrong thing to predict. Lotteries in general made a huge effort to prove that their process is actually random. If the lottery is doing its job, it will be impossible.
-The only way that lottery results are predictable is if they are tampering with the result and you *discover* the method.
+## This is a little experiment to predict "La Tinka" lottery using DBSCAN algorithm 
+
+#### 📢 Disclaimer 📢
+  This is ONLY an experiment, it is not by any means something that allows you to predict the results of any lottery game. This is obviously a wrong thing to predict. Lotteries in general made a huge effort to prove that their process is actually random. If the lottery is doing its job, it will be impossible.
+  The only way that lottery results are predictable is if they are tampering with the result and you *discover* the method.
 
 ## Why did you do it?
 I was bored  🫤

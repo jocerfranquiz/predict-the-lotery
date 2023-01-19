@@ -1,4 +1,4 @@
-# predict-the-lotery
+# predict-the-lotery 🍀
 
 ## 📢 Disclaimer 📢
 This is ONLY an experiment, it is not by any means something that allows you to predict the results of any lottery game. This is obviously a wrong thing to predict. Lotteries in general made a huge effort to prove that their process is actually random. If the lottery is doing its job, it will be impossible.
